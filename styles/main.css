@@ -15,3 +15,16 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2em;
 }
+
+.navbar {
+  border-radius: 0 !important;
+}
+.navbar-nav {
+  border-bottom: 1px solid;
+}
+.navbar-default {
+  background-color: #333 !important;
+}
+.nav li {
+  padding-right: 20px;
+}
