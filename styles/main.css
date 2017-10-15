@@ -1,0 +1,11 @@
+body {
+  background-color: #292929 !important;
+}
+.container-fluid {
+  background-color: #333;
+  width: 90%;
+}
+
+.summary-content {
+  color: whitesmoke;
+}

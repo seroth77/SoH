@@ -1,0 +1,31 @@
+<template>
+  <require from="bootstrap/css/bootstrap.css"></require>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+          <div class="header_background">
+              <div class="dnd_logo">
+                <div class="dnd_camapign_text">
+                    Sins of Hygara
+                </div>
+                <img src="./images/DnD_Transparent.png" width="35%" />
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div repeat.for="audio of audioArray" class="alert alert-secondary" role="alert">
+          <div class="summary-content">${audio.content}</div>
+          <div>
+            <audio controls>
+              <source src=${audio.location} type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
