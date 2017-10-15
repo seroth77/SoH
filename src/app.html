@@ -17,7 +17,8 @@
     <div class="row">
       <div class="col-sm-12">
         <div repeat.for="audio of audioArray" class="alert alert-secondary" role="alert">
-          <div class="summary-content">${audio.content}</div>
+          <div class="episode-title">${audio.title}</div>
+          <div class="episode-summary" innerhtml.bind="audio.summary"></div>
           <div>
             <audio controls>
               <source src=${audio.location} type="audio/mpeg">

@@ -6,6 +6,12 @@ body {
   width: 90%;
 }
 
-.summary-content {
+.episode-title,
+.episode-summary {
   color: whitesmoke;
+}
+
+.episode-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
 }
